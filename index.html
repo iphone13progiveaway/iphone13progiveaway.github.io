@@ -201,10 +201,11 @@
 
 				<div class="col-md-6">
 
-					<div><img class="mySlides w3-animate-fading" src="https://imgur.com/v7kwL54.jpg" style="width:100%">
-  <img class="mySlides w3-animate-fading" src="https://imgur.com/SoIh2hd.jpg" style="width:100%">
-  <img class="mySlides w3-animate-fading" src="https://imgur.com/SYNFqnO.jpg" style="width:100%">
-  <img class="mySlides w3-animate-fading" src="https://imgur.com/FNwPc74.jpg" style="width:100%">
+					<div class="w3-content w3-section" style="max-width:500px">
+  <img class="mySlides w3-animate-top" src="https://imgur.com/v7kwL54.jpg" style="width:100%">
+  <img class="mySlides w3-animate-bottom" src="https://imgur.com/SoIh2hd.jpg" style="width:100%">
+  <img class="mySlides w3-animate-top" src="https://imgur.com/SYNFqnO.jpg" style="width:100%">
+  <img class="mySlides w3-animate-bottom" src="https://imgur.com/FNwPc74.jpg" style="width:100%">
 </div>
 
 <script>
@@ -220,10 +221,9 @@ function carousel() {
   myIndex++;
   if (myIndex > x.length) {myIndex = 1}    
   x[myIndex-1].style.display = "block";  
-  setTimeout(carousel, 9000);    
+  setTimeout(carousel, 2500);    
 }
 </script>
-
 
 				</div>
 
